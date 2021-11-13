@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Start Header box */
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pro {
+    color: white;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+a, .main-head {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    padding: 20px;
+}
+
+#btn {
+    background-color: rgb(2, 175, 228);
+    color: white;
+    width: 100px;
+    min-height: 30px;
+    border: 2px solid black;
+    margin-left: 500px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rebeccapurple;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+#btn:active {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+/* End Header box */
+
+.whole-thing {
+    
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* start of userCard */
+
+.user-card {
+    background-color: whitesmoke;
+    flex: 2;
+    margin: 40px;
+    min-height: 420px;
+    border: 2px solid black;
+}
+
+.card-header {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(2, 175, 228);
+    padding: 25px;
+}
+
+.card-body {
+    font-size: 20px;
+    padding: 15px;
+}
+
+#pro-pic {
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgb(175, 174, 174);
+    border: 3px solid white;
+    padding: 5px;
+}
+
+#name {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+#gear, #locate {
+    height: 20px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+#text-body{
+    margin-bottom: 5px;
+}
+.gear-link {
+    position: absolute;
+    left: 38px;
+    margin-top: 15px;
+}
+
+#card-gear {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* End of userCard */
+
+/* start of Connect Req box */
+.connect-req {
+    flex: 1;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin: 40px;
+    height: 280px;
+}
+
+.head {
+    background-color: black;
+    border: 2px solid cyan;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.num-btn {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-right: 25px;
+    background-color: cyan;
+    color: white;
+    border: 2px solid white;
+}
+
+.connect-line {
+    color: white;
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+.connect-pics, .connect-pics-2 {
+    height: 50px;
+    margin: 10px;
+}
+
+.accept, .deny {
+    height: 50px;
+}
+
+.accept {
+    margin-left: 10px;
+}
+
+.deny {
+    margin-right: 10px;
+}
+
+.connect-names, .connect-names-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px;
+}
+/* end of Connect Req box */
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+/* start of edu box */
+
+.edu-box {
+    background-color: whitesmoke;
+    flex: 2;
+    margin: 40px;
+    height: 320px;
+    border: 2px solid black;
+}
+
+.edu-head {
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+}
+
+.edu-head > h3 {
+    color: white;
+    margin-top: 5px;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.edu-box > h2 {
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 2rem;
+}
+.edu-box > p {
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+/* end of edu box */
+
+/* start of your connects box */
+
+.your-connects {
+    flex: 1;
+    background-color: whitesmoke;
+    margin: 40px;
+    border: 2px solid black;
+    height: 540px;
+}
+
+.your-connects-head {
+    height: 100px;
+    background-color: black;
+    border: 2px solid cyan;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.connects-btn {
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: cyan;
+    color: white;
+    border: 2px solid white;
+}
+
+.connects-msg {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.6em;
+}
+
+.connect-content {
+    padding: 20px;
+}
+
+.your-connect-pics {
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.your-connect-names {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 0px;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.view {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+}
