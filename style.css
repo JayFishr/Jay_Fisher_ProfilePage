@@ -67,16 +67,9 @@ a, .main-head {
 
 .whole-thing {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
-.flexed {   
-    flex: 2;
-}
-
-.right-col {
-    flex: 1;
-}
 
 /* start of userCard */
 
@@ -96,7 +89,7 @@ a, .main-head {
 
 .card-body {
     font-size: 1.2rem;
-    padding: 25px;
+    padding: 30px;
 }
 
 #pro-pic {
@@ -110,6 +103,7 @@ a, .main-head {
 
 #name {
     margin-bottom: 10px;
+    font-size: 2.4rem;
 }
 
 #gear, #locate {
@@ -171,12 +165,14 @@ h3 {
 }
 
 .connect-pics, .connect-pics-2 {
-    height: 50px;
+    height: 60px;
     margin: 10px;
+    border-radius: 50%;
 }
 
 .accept, .deny {
     height: 50px;
+    cursor: pointer;
 }
 
 .accept {
@@ -187,7 +183,7 @@ h3 {
     margin-right: 10px;
 }
 
-.connect-names, .connect-names-2 {
+.connect-names, .connect-names2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -277,6 +273,7 @@ h3 {
     height: 60px;
     margin-right: 20px;
     margin-left: 10px;
+    border-radius: 50%;
 }
 
 .your-connect-names {

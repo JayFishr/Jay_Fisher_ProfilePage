@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- nav bar -->
     <header>
         <h1 id="pro">Profile</h1>
         <ul>
@@ -17,8 +18,10 @@
             <li ><button id="btn">Sign Out</button></li>
         </ul>
     </header>
+    <!-- end of navbar -->
     <div class="whole-thing">
         <div class="flexed">
+            <!-- start of usercard -->
             <div class="user-card">
                 <div class="card-header">
                     <img id="pro-pic" src="ronin-mask.jpeg" alt="Pro Pic">
@@ -30,11 +33,12 @@
                         Knowhere
                     </h3>
                     <p id="text-body">Ronin | Ninja master in the art of making beats knock | Master swordsman in the art of audio production | Grand Master in the art of kickin' rhymes & sick flows</p>
-                    <div class="gear-link">
+                    <div class="gear-link" onclick="changeName()">
                         <a id="card-gear" href="#"><img id="gear" src="gear.png" alt="gear">edit profile</a>
                     </div>
                 </div>
             </div>
+            <!-- end of usercard -->
             <!-- start of EDU box -->
             <div class="edu-box">
                 <div class="edu-head">
@@ -78,16 +82,16 @@
                         <p>
                             Todd E
                         </p>
-                        <img class="accept" src="accept-circle.png" alt="">
-                        <img class="deny" src="close-circle.png" alt="">
+                        <img class="accept" onclick="removeName(), removeCount(), addCount()" src="accept-circle.png" alt="">
+                        <img class="deny" onclick="removeName(), removeCount()" src="close-circle.png" alt="">
                     </div>
-                    <div class="connect-names-2">
+                    <div class="connect-names2">
                         <img class="connect-pics-2" src="phil-s.jpg" alt="Phil">
                         <p>
                             Phil K
                         </p>
-                            <img class="accept" src="accept-circle.png" alt="">
-                            <img class="deny" src="close-circle.png" alt="">
+                            <img class="accept" onclick="removeName2(), removeCount(), addCount()" src="accept-circle.png" alt="">
+                            <img class="deny" onclick="removeName2(), removeCount()" src="close-circle.png" alt="">
                     </div>
                 </div>
             </div>
@@ -95,7 +99,7 @@
             <!-- start of your connects -->
             <div class="your-connects">
                 <div class="your-connects-head">
-                    <button class="connects-btn" type="submit">500+</button>
+                    <button class="connects-btn" type="submit">418</button>
                     <p class="connects-msg">
                         Your Connections
                     </p>
@@ -133,5 +137,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
